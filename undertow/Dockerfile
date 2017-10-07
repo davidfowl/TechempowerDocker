@@ -2,8 +2,8 @@ FROM maven AS undertow-build-env
 
 WORKDIR /app
 
-COPY pom.xml .
-COPY src ./src
+COPY undertow/pom.xml .
+COPY undertow/src ./src
 
 # produce assets
 RUN mvn clean package

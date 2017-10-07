@@ -2,8 +2,8 @@ FROM maven AS netty-build-env
 
 WORKDIR /app
 
-COPY pom.xml .
-COPY src ./src
+COPY netty/pom.xml .
+COPY netty/src ./src
 
 # produce assets
 RUN mvn clean compile assembly:single

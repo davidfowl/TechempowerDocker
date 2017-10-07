@@ -21,7 +21,7 @@ RUN cd ULib-${ULIB_VERSION} \
     && make install
 
 # Copy the sources
-COPY src ./src
+COPY ulib/src ./src
 
 # Compile usp pages
 RUN mkdir -p ${ULIB_DOCUMENT_ROOT} \
