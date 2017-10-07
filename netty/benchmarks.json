@@ -2,7 +2,7 @@
     "Default": {
       "Source": {
         "Repository": "https://github.com/davidfowl/TechempowerDocker.git",
-        "Project": "Netty.dummy",        
+        "Project": "netty/netty.csproj",        
         "BranchOrCommit": "master",
         "DockerFile": "netty/Dockerfile"
       },
