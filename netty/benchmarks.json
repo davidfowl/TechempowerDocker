@@ -1,0 +1,24 @@
+{
+    "Default": {
+      "Source": {
+        "Repository": "https://github.com/davidfowl/TechempowerDocker.git",
+        "BranchOrCommit": "master",
+        "DockerFile": "netty/Dockerfile"
+      },
+      "Port": 8080
+    },
+    "Plaintext": {
+      "Path": "/plaintext",
+      "PresetHeaders": "Plaintext",
+      "ScriptName": "pipeline",
+      "PipelineDepth": 16
+    },
+    "PlaintextNonPipelined": {
+      "Path": "/plaintext",
+      "PresetHeaders": "Plaintext"
+    },
+    "Json": {
+      "Path": "/json",
+      "PresetHeaders": "Json"
+    }
+  }
