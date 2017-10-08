@@ -1,0 +1,25 @@
+{
+    "Default": {
+      "Source": {
+        "Repository": "https://github.com/davidfowl/TechempowerDocker.git",
+        "Project": "ulib/ulib.csproj",        
+        "BranchOrCommit": "master",
+        "DockerFile": "ulib/Dockerfile"
+      },
+      "Port": 8080
+    },
+    "Plaintext": {
+      "Path": "/plaintext",
+      "PresetHeaders": "Plaintext",
+      "ScriptName": "pipeline",
+      "PipelineDepth": 16
+    },
+    "PlaintextNonPipelined": {
+      "Path": "/plaintext",
+      "PresetHeaders": "Plaintext"
+    },
+    "Json": {
+      "Path": "/json",
+      "PresetHeaders": "Json"
+    }
+  }
